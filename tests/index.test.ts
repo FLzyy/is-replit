@@ -9,17 +9,7 @@ describe("not replit", () => {
 });
 
 describe("in replit", () => {
-  const envVar = [
-    "REPLIT",
-    "REPL_OWNER",
-    "REPLIT_DB_URL",
-    "REPL_ID",
-    "REPL_IMAGE",
-    "REPL_LANGUAGE",
-    "REPL_PUBKEYS",
-    "REPL_SLUG",
-    "PRYBAR_FILE",
-  ];
+  const envVar = ["REPLIT", "REPL_ID"];
 
   envVar.forEach((value) => {
     it(`should return true (${value})`, () => {

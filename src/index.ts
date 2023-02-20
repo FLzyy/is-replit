@@ -1,4 +1,5 @@
 const envVar = [
+  "REPLIT",
   "REPL_OWNER",
   "REPLIT_DB_URL",
   "REPL_ID",
@@ -6,8 +7,8 @@ const envVar = [
   "REPL_LANGUAGE",
   "REPL_PUBKEYS",
   "REPL_SLUG",
-  "PRYBAR_FILE"
-]
+  "PRYBAR_FILE",
+];
 
 export default function isHeroku(): boolean {
   for (let i = 0, n = envVar.length; i < n; i++) {

@@ -10,7 +10,7 @@ const envVar = [
   "PRYBAR_FILE",
 ];
 
-export default function isHeroku(): boolean {
+export default function isReplit(): boolean {
   for (let i = 0, n = envVar.length; i < n; i++) {
     if (!(envVar[i] in process.env)) {
       return false;

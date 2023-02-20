@@ -1,7 +1,7 @@
 {
-  "name": "npm-package",
+  "name": "is-replit",
   "version": "1.0.0",
-  "description": "npm-package description",
+  "description": "Detect if your code is currently running on Replit",
   "main": "index.js",
   "scripts": {
     "compile": "swc src/index.ts -d dist --config-file .swcrc",
@@ -16,21 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FLzyy/npm-package.git"
+    "url": "git+https://github.com/FLzyy/is-replit.git"
   },
   "keywords": [
-    "key",
-    "w",
-    "o",
-    "r",
-    "d"
+    "replit",
+    "repl",
+    "detect",
+    "is",
+    "env"
   ],
   "author": "FLzyy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FLzyy/npm-package/issues"
+    "url": "https://github.com/FLzyy/is-replit/issues"
   },
-  "homepage": "https://github.com/FLzyy/npm-package#readme",
+  "homepage": "https://github.com/FLzyy/is-replit#readme",
   "devDependencies": {
     "@swc/cli": "^0.1.62",
     "@swc/core": "^1.3.35",

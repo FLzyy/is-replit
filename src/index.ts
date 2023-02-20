@@ -12,10 +12,9 @@ const envVar = [
 
 export default function isReplit(): boolean {
   for (let i = 0, n = envVar.length; i < n; i++) {
-    if (!(envVar[i] in process.env)) {
-      return false;
+    if (envVar[i] in process.env) {
+      return true;
     }
   }
-
-  return true;
+  return false;
 }

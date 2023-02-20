@@ -1,6 +1,6 @@
 {
   "name": "is-replit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect if your code is currently running on Replit",
   "main": "index.js",
   "type": "module",
